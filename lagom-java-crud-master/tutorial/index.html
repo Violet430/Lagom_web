@@ -1,0 +1,51 @@
+<body>
+<div>
+    <h2>CRUD using Lagom Framework</h2>
+</div>
+<div>
+    Building Reactive Java 8 application with Lagom framework. This is a classic CRUD application which persist events
+    in Cassandra Db. Here we are using embedded Cassandra to persist events and embedded kafka for publishing and
+    subscribing between microservices.
+
+</div>
+<div>
+    <h2>Clone Project</h2>
+    <pre><code>
+        git clone git@github.com:knoldus/lagom-java-crud.git
+        cd lagom-java-crud
+        mvn lagom:runAll
+    </code></pre>
+</div>
+<div>
+    <h2>Application runs on port : http://localhost:9000</h2>
+    <h2>Json Formats for different Rest services are mentioned below :</h2>
+<br/>
+    <h3>Create Movie</h3>
+
+        Route(Method - POST) : localhost:9000/api/new-movie
+
+        Rawdata(json):
+        {
+        "id": "1",
+        "name": "Avengers",
+        "genre": "Action"
+        }
+
+<br/>
+    <h3>Update Movie</h3>
+
+        Route(Method - PUT) : localhost:9000/api/update-movie/:id
+
+
+    <br/><h3>Delete Movie</h3>
+
+        Route(Method - DELETE) : localhost:9000/api/delete-movie/:id
+
+
+    <br/><h3>Get Movie details</h3>
+
+        Route(Method - GET) : localhost:9000/api/movie/:id
+    <br/>
+    For any issue please raise a ticket @ [Github Issue](https://github.com/knoldus/lagom-java-crud/issues)
+</div>
+</body>
