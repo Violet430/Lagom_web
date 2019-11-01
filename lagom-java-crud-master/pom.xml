@@ -354,7 +354,7 @@
     <maven.checkstyle.plugin.version>2.17</maven.checkstyle.plugin.version>
     <lagom.version>1.3.0</lagom.version>
     <play.version>2.5.10</play.version>
-    <akka.version>2.4.16</akka.version>
+    <akka.version>2.5.26</akka.version>
     <maven.jacoco.plugin.version>0.7.9</maven.jacoco.plugin.version>
     <maven.findbugs.plugin.version>3.0.5</maven.findbugs.plugin.version>
     <conductr.lib.name>lagom10-conductr-bundle-lib_2.11</conductr.lib.name>
